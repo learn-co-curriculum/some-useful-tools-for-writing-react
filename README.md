@@ -29,7 +29,7 @@ class Hog extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-    //try to avoid this when you can
+    //try to avoid this as it violates single source of truth
       hogs: props.hogs
     }
   }
