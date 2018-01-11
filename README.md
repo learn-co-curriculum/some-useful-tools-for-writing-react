@@ -18,7 +18,7 @@ this.state.hogs.map(hog => (
   <HogTile key={hog.id} />
 ))
 ```
-Essentially, React is telling you that any child components should have a unique identifier or [key prop](https://reactjs.org/docs/lists-and-keys.html#keys).  When passing your components key props, avoid using the id as a key as it is an [anti-pattern](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318).
+Essentially, React is telling you that any child components should have a unique identifier or [key prop](https://reactjs.org/docs/lists-and-keys.html#keys).  When passing your components key props, avoid using the index while you're iterating as a key as it is an [anti-pattern](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318).
 
 6. You may also want to be cautious of [setting the initial state of a component based on props](https://medium.com/@justintulk/react-anti-patterns-props-in-initial-state-28687846cc2e).
 ```
