@@ -14,7 +14,10 @@ Below are some helpful resources that will help you in this module
 5. You've likely seen or will see the warning that `each child in an array or iterator should have a unique key prop`.
 Example: 
 ```
-this.state.hogs.map(hog => (
+this.state.hogs.map((hog, index) => (
+  {/*AVOID THIS*/}
+  <HogTile key={index} />
+  {/*Do this instead*/}
   <HogTile key={hog.id} />
 ))
 ```
@@ -26,6 +29,7 @@ class Hog extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+    //try to avoid this when you can
       hogs: props.hogs
     }
   }
