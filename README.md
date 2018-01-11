@@ -9,8 +9,12 @@ Below are some helpful resources that will help you in this module
 
 3. You might also want to enable [autosave](https://atom.io/packages/autosave) in Atom. This will automatically save your files onBlur or when they're closed. Open up `preferences/packages` in Atom then search for autosave, open `settings` and enable it if you want.
 
+4. [Semantic UI for React](https://react.semantic-ui.com/introduction) is a great CSS library written specifically for React. Make sure you read the [usage](https://react.semantic-ui.com/usage) section of the docs to see how to incorporate it into your React projects. **Make sure you're reading the docs for the react version of semantic, not the vanilla JS one.** Their other library uses jQuery which does not play well with React at all.
 
-![React Logo](https://media.giphy.com/media/qm2CRlXb0gEx2/giphy.gif)
+5. Most importantly, the official [React Documentation](https://reactjs.org/), courtesty of FaceBook. THX FaceBook for creating this stellar library.
+
+
+![Zuckerberg](https://media.giphy.com/media/MeMue8HRo4Hsc/giphy.gif)
 
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/some-useful-tools-for-writing-react'>Some Useful Tools for Writing React</a> on Learn.co and start learning to code for free.</p>
