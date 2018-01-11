@@ -11,9 +11,33 @@ Below are some helpful resources that will help you in this module
 
 4. Please remember that the [setState](https://reactjs.org/docs/react-component.html#setstate) method in React is [asynchronous](https://medium.com/@wereHamster/beware-react-setstate-is-asynchronous-ce87ef1a9cf3).
 
+5. You've likely seen or will see the warning that `each child in an array or iterator should have a unique key prop`.
+Example: 
+```
+this.state.hogs.map(hog => (
+  <HogTile key={hog.id} />
+))
+```
+Essentially, React is telling you that any child components should have a unique identifier or [key prop](https://reactjs.org/docs/lists-and-keys.html#keys).  When passing your components key props, avoid using the id as a key as it is an [anti-pattern](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318).
+
+5. You may also want to be cautious of [setting the initial state of a component based on props](https://medium.com/@justintulk/react-anti-patterns-props-in-initial-state-28687846cc2e).
+```
+class Hog extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      hogs: props.hogs
+    }
+  }
+}
+```
+
+
 4. [Semantic UI for React](https://react.semantic-ui.com/introduction) is a great CSS library written specifically for React. Make sure you read the [usage](https://react.semantic-ui.com/usage) section of the docs to see how to incorporate it into your React projects. **Make sure you're reading the docs for the react version of semantic, not the vanilla JS one.** Their other library uses jQuery which does not play well with React at all.
 
 5. Install the [React Devtools Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This gives you access to some pretty great tools that make it a lot easier to debug your programs in React. Here is the [repo](https://github.com/facebook/react-devtools#faq) for the extension.
+
+6. Please take some time to read [Thinking in React](https://reactjs.org/docs/thinking-in-react.html), a short article straight from the official React documentation that walks through thinking about your React applications and component structure.
 
 5. Most importantly, the official [React Documentation](https://reactjs.org/), courtesty of FaceBook. THX FaceBook for creating this stellar library.
 
