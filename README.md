@@ -13,7 +13,7 @@ Below are some helpful resources that will help you in this module
 
 4. [Semantic UI for React](https://react.semantic-ui.com/introduction) is a great CSS library written specifically for React. Make sure you read the [usage](https://react.semantic-ui.com/usage) section of the docs to see how to incorporate it into your React projects. **Make sure you're reading the docs for the react version of semantic, not the vanilla JS one.** Their other library uses jQuery which does not play well with React at all.
 
-5. Install the [React Devtools Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This gives you access to some pretty great tools that make it a lot easier to debug your programs in React.
+5. Install the [React Devtools Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This gives you access to some pretty great tools that make it a lot easier to debug your programs in React. Here is the [repo](https://github.com/facebook/react-devtools#faq) for the extension.
 
 5. Most importantly, the official [React Documentation](https://reactjs.org/), courtesty of FaceBook. THX FaceBook for creating this stellar library.
 
