@@ -43,7 +43,7 @@ class Hog extends React.Component {
 
 9. Please take some time to read [Thinking in React](https://reactjs.org/docs/thinking-in-react.html), a short article straight from the official React documentation that walks through thinking about your React applications and component structure.
 
-10. Most importantly, the official [React Documentation](https://reactjs.org/), courtesty of FaceBook. THX FaceBook for creating this stellar library.
+10. Most importantly, the official [React Documentation](https://reactjs.org/), courtesty of Facebook. THX Facebook for creating this stellar library.
 
 
 ![Zuckerberg](https://media.giphy.com/media/MeMue8HRo4Hsc/giphy.gif)
