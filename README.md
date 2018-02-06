@@ -45,6 +45,22 @@ class Hog extends React.Component {
 
 10. Most importantly, the official [React Documentation](https://reactjs.org/), courtesty of Facebook. THX Facebook for creating this stellar library.
 
+11. As a bonus, take a look at [error handling in fetch](https://gist.github.com/odewahn/5a5eeb23279eed6a80d7798fdb47fe91)
+
+```fetch("/api/foo")
+  .then( response => {
+    if (!response.ok) { throw response }
+    return response.json()  //we only get here if there is no error
+  })
+  .then( json => {
+    this.props.dispatch(doSomethingWithResult(json)) 
+  })
+  .catch( err => {
+    err.text().then( errorMessage => {
+      this.props.dispatch(displayTheError(errorMessage))
+    })
+  })```
+
 
 ![Zuckerberg](https://media.giphy.com/media/MeMue8HRo4Hsc/giphy.gif)
 
