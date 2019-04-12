@@ -28,7 +28,4 @@ fetch("/api/foo")
   })
 ```
 
-![Zuckerberg](https://media.giphy.com/media/MeMue8HRo4Hsc/giphy.gif)
-
-
 <p class='util--hide'>View <a href='https://learn.co/lessons/some-useful-tools-for-writing-react'>Some Useful Tools for Writing React</a> on Learn.co and start learning to code for free.</p>
