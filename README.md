@@ -6,7 +6,7 @@ Below are some helpful resources that may accelerate your React learning:
 
 2. Install the [React Devtools Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). This gives you access to some pretty great tools that make it a lot easier to debug your programs in React. Here is the [repo](https://github.com/facebook/react-devtools#faq) for the extension.
 
-3. Most importantly, the official [React Documentation](https://reactjs.org/), courtesy of Facebook. While you won't have the time to read over all of it now, it might be good to have bookmarked while you learn React. THX Facebook for creating this stellar library.
+3. Most importantly, the official [React Documentation](https://reactjs.org/), courtesy of Facebook. While you won't have the time to read over all of it now, it might be good to have bookmarked while you learn React.
 
 4. As a bonus, take a look at [error handling in fetch](https://gist.github.com/odewahn/5a5eeb23279eed6a80d7798fdb47fe91)
 
